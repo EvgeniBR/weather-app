@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>New weather</title>
+    <link rel="stylesheet" href="./style.css">
+  </head>
+
+  <body>
+    <header>
+      <div class="lds-ripple loader hidden">
+        Loading <br />
+        <div></div>
+        <div></div>
+      </div>
+
+      <div class="temp" data-type data-type-min="1" data-type-max="6"></div>
+    </header>
+
+    <div class="searchBar">
+      <input class="input" type="text" />
+      <input class="btn" type="button" value="Get Weather" />
+      <p class="hiddenMSG">Already Exists</p>
+    </div>
+    <section class="weather-box">
+     
+    </section>
+<script src="./logic.js"></script>
+  </body>
+</html>
