@@ -121,3 +121,17 @@ color:white;
 padding: 1rem;
 font-size:2rem;
 }
+
+@media(max-width: 600px){
+  .weather-box{
+    display: grid;
+    grid-template-columns:  1fr;
+    justify-content: center;
+  }
+  .weatherDiv {
+    
+    align-self: center;
+    justify-self: center;
+  }
+  
+}
